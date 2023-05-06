@@ -21,7 +21,7 @@
 		loop:true,
 		dots: true,
 		nav: false,
-		autoplay: true,
+		autoplay: false,
 		margin:0,
 		  responsive:{
 			  0:{
