@@ -150,6 +150,13 @@ body {
   color: #fff;
 }
 
+/* (1280x720) Galaxy Note 2, WXGA */
+@media only screen and (min-device-width: 1280px)  {
+  .desc-section {
+    margin-top: -10rem !important;
+  }
+}
+
 @media (max-width: 991px) {
   html, body {
     overflow-x: hidden;
@@ -985,6 +992,10 @@ Banner Style
 .main-banner .active:before {
   color: #ff685f;
   border-bottom: 3px solid #ff685f;
+}
+
+.right-image {
+  height: 70%;
 }
 
 
