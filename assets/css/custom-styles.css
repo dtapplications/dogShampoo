@@ -636,6 +636,10 @@ header
 }
 
 @media (max-width: 767px) {
+  .logo-text {
+    display: none;
+  }
+
   .background-header .main-nav .nav {
     margin-top: 80px !important;
   }
@@ -865,7 +869,7 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/images/image-2.png);
+  background-image: url(../images/prod/image-2.png);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -955,7 +959,7 @@ Banner Style
 }
 
 .check-list li{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 1.5px;
 }
 
@@ -1612,7 +1616,7 @@ contact
   margin-top: 30px;
   position: relative;
   z-index: 5;
-  display: inline-flex;
+  display: grid;
 }
 
 .contact-us .info span {
@@ -1846,6 +1850,7 @@ responsive
   .main-banner::before {
     display: none;
   }
+
   .main-banner .item {
     margin-right: 0px;
   }
@@ -1911,6 +1916,11 @@ responsive
   .main-banner .item .down-buttons {
     display: inline-block;
   }
+
+  .logo-text {
+    display: none;
+  }
+
   .main-banner .item .down-buttons .main-blue-button {
     margin-right: 0px;
     margin-bottom: 15px;
