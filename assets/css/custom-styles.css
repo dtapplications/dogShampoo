@@ -171,6 +171,10 @@ body {
   .mobile-bottom-fix-big {
     margin-bottom: 60px;
   }
+
+  .right-image img{
+    height: auto !important;
+  }
 }
 
 .page-section {
@@ -640,9 +644,13 @@ header
   .background-header .main-nav .nav li:nth-child(6) {
     padding-right: 0px;
   }
+
 }
 
 @media (max-width: 767px) {
+  .right-image img{
+    height: auto !important;
+  }
   .logo-text {
     display: none;
   }
